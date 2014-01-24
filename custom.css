@@ -1,0 +1,58 @@
+@import url(vendor/fontello/css/fontello.css);
+@import "http://fonts.googleapis.com/css?family=Audiowide";
+h1 {
+  font-family: "Audiowide", Sans-Serif; }
+
+.tile {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 0.5px;
+  padding: 2px;
+  border: 2px inset #AAA;
+  background-color: #FAFAFA;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: "Audiowide", Sans-Serif;
+  text-align: center; }
+
+.obscure {
+  text-indent: 100%;
+  white-space: nowrap;
+  background-color: #95a5a6;
+  border: 2px outset #798d8f; }
+
+.mine {
+  color: black; }
+
+.c1:after {
+  content: '1';
+  color: #3498db; }
+
+.c2:after {
+  content: '2';
+  color: #2ecc71; }
+
+.c3:after {
+  content: '3';
+  color: #e74c3c; }
+
+.c4:after {
+  content: '4';
+  color: #2c3e50; }
+
+.c5:after {
+  content: '5';
+  color: #6d2018; }
+
+.c6:after {
+  content: '6';
+  color: #16a085; }
+
+.c7:after {
+  content: '7';
+  color: #8e44ad; }
+
+.c8:after {
+  content: '8';
+  color: #4e5758; }
