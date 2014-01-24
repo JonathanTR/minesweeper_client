@@ -1,0 +1,67 @@
+@import "vendor/fontello/css/fontello.css";
+@import "vendor/_flatui_colors.css.scss";
+@import "http://fonts.googleapis.com/css?family=Audiowide";
+
+h1 {
+  font-family: "Audiowide", Sans-Serif;
+}
+
+.tile {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 0.5px;
+  padding: 2px;
+  border: 2px inset #AAA; 
+  background-color: #FAFAFA;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: "Audiowide", Sans-Serif;
+  text-align: center;
+}
+
+.obscure {
+  text-indent: 100%;
+  white-space: nowrap;
+  background-color: $concrete;
+  border: 2px outset darken($concrete, 10%)
+}
+
+.mine {
+  color: black;
+}
+
+.c1:after {
+  content: '1';
+  color: $peter_river;
+}
+.c2:after {
+  content: '2';
+  color: $emerald;
+}
+.c3:after {
+  content: '3';
+  color: $alizarin;
+}
+.c4:after {
+  content: '4';
+  color: $midnight_blue;
+}
+.c5:after {
+  content: '5';
+  color: darken($pomegranate, 20%);
+}
+.c6:after {
+  content: '6';
+  color: $green_sea;
+}
+.c7:after {
+  content: '7';
+  color: $wisteria;
+}
+.c8:after {
+  content: '8';
+  color: darken($asbestos, 20%);
+}
+
+
