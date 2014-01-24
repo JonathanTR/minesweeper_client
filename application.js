@@ -42,12 +42,13 @@ minesweeper.display = function(boardArray, handle){
         switch(modelTile){
           case '_':
             tile.className += 'tile'
+            tile.innerHTML = '&nbsp'
+            break
           case '*':
-            tile.className += 'tile mine'
+            tile.className += 'tile mine icon-asterisk'
             break
           default:
-            tile.className += 'tile'
-            tile.innerHTML = modelTile
+            tile.className += 'tile ' + 'c' + modelTile
             break
         }
         row.appendChild(tile)
